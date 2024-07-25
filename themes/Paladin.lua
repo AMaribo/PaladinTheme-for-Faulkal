@@ -1,6 +1,6 @@
 ---@class BetterBags: AceAddon
 local BetterBags = LibStub('AceAddon-3.0'):GetAddon("BetterBags")
-assert(BetterBags, "BetterBags - Themes requires BetterBags")
+assert(BetterBags, "PaladinTheme for Faulkal requires BetterBags")
 
 ---@class Themes: AceModule
 local themes = BetterBags:GetModule('Themes')
@@ -22,11 +22,11 @@ local fonts = BetterBags:GetModule('Fonts')
 local decoratorFrames = {}
 
 ---@type string
-local theBorder = 'Interface\\AddOns\\BetterBags-Themes\\textures\\PaladinBorder256.png'
-local theBackground = 'Interface\\AddOns\\BetterBags-Themes\\textures\\PaladinBackgroundNew.png'
-local theCrest = 'Interface\\AddOns\\BetterBags-Themes\\textures\\PaladinBagButton.png'
-local theClose = 'Interface\\AddOns\\BetterBags-Themes\\textures\\PaladinCloseButton.png'
-local theFont = 'Interface\\AddOns\\BetterBags-Themes\\fonts\\Paladinfont-Regular.ttf'
+local theBorder = 'Interface\\AddOns\\PaladinTheme-for-Faulkal\\textures\\PaladinBorder256.png'
+local theBackground = 'Interface\\AddOns\\PaladinTheme-for-Faulkal\\textures\\PaladinBackgroundNew.png'
+local theCrest = 'Interface\\AddOns\\PaladinTheme-for-Faulkal\\textures\\PaladinBagButton.png'
+local theClose = 'Interface\\AddOns\\PaladinTheme-for-Faulkal\\textures\\PaladinCloseButton.png'
+local theFont = 'Interface\\AddOns\\PaladinTheme-for-Faulkal\\fonts\\Paladinfont-Regular.ttf'
 
 
 fonts.PaladinUI = CreateFont('BetterBagsPaladinUI')
