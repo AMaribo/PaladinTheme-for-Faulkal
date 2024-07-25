@@ -1,0 +1,15 @@
+## Interface: 100207, 110000, 110002
+
+## Title: PaladinTheme for Faulkal
+## Author: AMaribo
+## Notes: Adds one terrible Paladin theme to BetterBags!
+## Version: 1.0.0
+## X-Date: 2024-07-25T19:33:00Z
+## X-Category: Bags & Inventory
+## Dependencies: BetterBags
+## IconTexture: Interface\Icons\inv_misc_bag_24_netherweave_imbued
+
+
+## Misc themes
+themes/Paladin.lua
+
